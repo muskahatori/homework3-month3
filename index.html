@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="taskApp" id="taskApp">
+        <h1>Мои задачи </h1>
+        <input type="text" placeholder="Новая задача" class="taskInput" id="taskInput">
+        <button class="submitBtn" id="submitBtn">Добавить</button>
+        <select class="sortSelect" id="sortSelect">
+            <option value="all">Все</option>
+            <option value="done">Готовые</option>
+            <option value="notDone">В процессе</option>
+        </select>
+        <div class="taskList" id="taskList"></div>
+    </div>
+<script src="./main.js"></script>
+</body>
+</html>

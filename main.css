@@ -1,0 +1,68 @@
+/* styles.css */
+body{
+    margin: 0;
+    padding: 0;
+    background: #e0d9ff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.taskApp{
+    width: 380px;
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.12);
+}
+h1{
+    text-align: center;
+    color: #7c4fff;
+}
+.taskInput{
+    width: 100%;
+    padding: 11px;
+    border: 2px solid #c9b8ff;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+    outline: none;
+}
+.submitBtn{
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 8px;
+    background: #7c4fff;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 14px;
+    font-size: 15px;
+}
+.submitBtn:hover{
+    background: #6638ff;
+}
+.sortSelect{
+    width: 100%;
+    padding: 11px;
+    border: 2px solid #c9b8ff;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+.taskItem{
+    padding: 14px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.taskItem:hover{
+    opacity: 0.85;
+}
+.pending{
+    background: #ff7b7b;
+}
+.finished{
+    background: #43c463;
+}
